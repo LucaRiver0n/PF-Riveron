@@ -206,6 +206,15 @@ margin-top: 60px;
         margin-top: 10px;
     }
 
+.carousel-custom h5{
+    color:#ffff;
+    text-shadow: 1px 1px 4px black;
+}
+
+.carousel-custom p{
+    color:#ffff;
+    text-shadow: 1px 1px 5px black;
+}
 
 
 
