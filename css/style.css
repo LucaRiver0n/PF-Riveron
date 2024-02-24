@@ -8,6 +8,7 @@
 body{
     background-color: rgb(238, 240, 235);
     overflow: hidden;
+    
 }
 
 .index{
@@ -164,6 +165,55 @@ footer{
     margin-left: 10%;
 }
 
+.footer-about-us{
+    display: flex;
+    margin-top: 45px;
+}
+
+/* 
+------------------------------------ PAGINA DE PROYECTOS ----------------------------------------- */
+
+#imagenesDeProyectos{
+    display: flex;
+    height: auto;
+    width: 800px;
+    font-family: Poppins, Arial;
+    margin-left: 25%;
+    margin-top: -8px;
+    
+}
+
+#imagenesDeProyectos img{
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+.titulo-projects{
+    display: flex;
+    text-align: center;flex-direction: column;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+
+}
+
+.titulo-projects h1{
+font-weight: 600;
+font-size: 90px;
+margin-top: 60px;
+}
+
+.footer-projects{
+        display: flex;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERY - MOBILE - ABOUT US */
 
@@ -208,20 +258,6 @@ footer{
             margin-top: 3%;
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ------------------------------------------------------- ESTILO PARA EJEMPLO DE GRID ------------------------------------------------- */
