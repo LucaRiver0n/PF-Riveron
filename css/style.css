@@ -123,3 +123,131 @@ footer{
 .btn-custom{
     margin-top: 9px;
 }
+
+/* ------------------ PAGINA DE ABOUT US -------------------------- */
+
+.main-about-us{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Poppins, Arial;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#infoSobreNosotros{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    padding: 10px;
+   
+}
+#infoSobreNosotros h1{
+    font-size: 90px;
+    font-weight:600;
+}
+
+#infoSobreNosotros h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#infoSobreNosotros p{
+    margin-top: 3%;
+}
+
+.main-about-us img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+
+/* MEDIA QUERY - MOBILE - ABOUT US */
+
+@media (max-width: 480px){
+    .nav-bar-custom{
+        width: auto;
+    }
+
+    .main-about-us{
+        margin-top: 15%;
+    }
+    
+    #infoSobreNosotros{
+        display: flex;
+        height: auto;
+        width: 500px;
+        flex-direction: column;
+        padding: 10px;
+        }
+
+        #infoSobreNosotros h1{
+            font-size: 60px;
+            font-weight:600;
+        }
+        
+        #infoSobreNosotros h2{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        #infoSobreNosotros p{
+            margin-top: 3%;
+            font-size: 12px;
+        }
+
+        .main-about-us img{
+            height: 350px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-left: unset;
+            margin-top: 3%;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- ESTILO PARA EJEMPLO DE GRID ------------------------------------------------- */
+
+.body-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% auto 60px;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    row-gap: 10px;
+}
+
+.header-grid{
+    background-color: aqua;
+    grid-area: header;
+}
+
+.main-grid{
+    background-color: red;
+    grid-area: main;
+}
+
+.footer-grid{
+    background-color: burlywood;
+    grid-area: footer;
+}
