@@ -238,6 +238,9 @@ font-family: Poppins, Arial;
     margin-left: 100px;
 }
 
+.footer-shop{
+    margin-top: 30px;
+}
 
 
 
@@ -289,6 +292,43 @@ font-family: Poppins, Arial;
         }
 }
 
+/* MEDIA QUERY - MOBILE - SHOP */
+
+@media (max-width: 480px){
+
+    body{
+        
+        overflow: unset;
+        
+    }
+    .titulo-shop h1{
+        display: flex;
+        margin-top: 20%;
+        font-weight: 600;
+        font-size: 6vh;
+        text-align: center;
+        padding: 10px;
+        
+        }
+        
+        .cards-shop{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 4%;
+        font-family: Poppins, Arial;
+        }
+        
+        .card{
+            margin-left: unset;
+            margin-top: 20px;
+        }
+        
+        .footer-shop{
+            margin-top: 30px;
+        } 
+
+}
 
 /* ------------------------------------------------------- ESTILO PARA EJEMPLO DE GRID ------------------------------------------------- */
 
