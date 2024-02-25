@@ -216,6 +216,27 @@ margin-top: 60px;
     text-shadow: 1px 1px 5px black;
 }
 
+/* ----------------------------- PAGINA DE SHOP --------------------------------------------- */
+.titulo-shop h1{
+display: flex;
+margin-top: 7%;
+font-family: Poppins, Arial;
+font-weight: 600;
+font-size: 10vh;
+justify-content: center;
+}
+
+.cards-shop{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+margin-top: 4%;
+font-family: Poppins, Arial;
+}
+
+.card{
+    margin-left: 100px;
+}
 
 
 
