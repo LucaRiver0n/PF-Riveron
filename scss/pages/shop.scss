@@ -1,0 +1,32 @@
+.titulo-shop h1{
+    display: flex;
+    margin-top: 7%;
+    font-family: Poppins, Arial;
+    font-weight: 600;
+    font-size: 10vh;
+    justify-content: center;
+    }
+    
+    .cards-shop{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 4%;
+    font-family: Poppins, Arial;
+    .card{
+        margin-left: 100px;
+        a{
+            background-color: #000;
+            border-color: #000;
+            &:hover{
+                background-color: #00021b;
+                border-color: #00021b;
+            }
+    
+        }
+    }
+    }
+    
+    .footer-shop{
+        margin-top: 30px;
+    }

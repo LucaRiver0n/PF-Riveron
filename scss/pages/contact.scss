@@ -1,0 +1,48 @@
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+    .imagen {
+        object-fit: cover;
+        width: 50%;
+        height: 100%;
+        z-index: -10000;
+    }
+    #contContacto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        h1{
+            display: flex;
+            font-family: Poppins, Arial;
+            font-size: 10vh;
+            text-align: center;
+            justify-content: flex-start;
+            height: 100px;
+            width: 500px;
+            align-items: center;
+            margin-left: 10%;
+            margin-top: 25%;
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 10%;
+            align-items: center;
+            text-align: center;
+            .form-control-custom{
+                width: 300px;
+            }
+            .btn-custom{
+                margin-top: 9px;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.main-about-us{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Poppins, Arial;
+    margin-top: 10%;
+    margin-left: 10%;
+    img{
+        height: 500px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-left: 10%;
+    }
+    #infoSobreNosotros{
+        display: flex;
+        height: 500px;
+        width: 500px;
+        flex-direction: column;
+        padding: 10px;
+        }
+        h1{
+            font-size: 90px;
+            font-weight:600;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        p{
+            margin-top: 3%;
+    }
+}
+
+.footer-about-us{
+    display: flex;
+    margin-top: 45px;
+}
