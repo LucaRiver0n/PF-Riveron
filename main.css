@@ -92,14 +92,8 @@ footer {
 .main-about-us p {
   margin-top: 3%;
 }
-.main-about-us .btn-custom-contact a {
+.main-about-us .btn-custom-contact {
   text-decoration: none;
-  color: black;
-  width: auto !important;
-  height: 30px;
-}
-.main-about-us .btn-custom-contact a:hover {
-  color: white;
 }
 
 .footer-about-us {
@@ -151,13 +145,6 @@ footer {
 }
 .main-contact #contContacto .formulario .form-control-custom {
   width: 300px;
-}
-.main-contact #contContacto .formulario .btn-custom a {
-  text-decoration: none;
-  color: black;
-}
-.main-contact #contContacto .formulario .btn-custom a:hover {
-  color: white;
 }
 
 .titulo-projects {

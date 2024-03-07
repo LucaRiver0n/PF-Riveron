@@ -28,7 +28,17 @@
         }
         p{
             margin-top: 3%;
-    }
+        }
+        .btn-custom-contact a {
+            
+            text-decoration: none;
+            color: black;
+            width: auto !important;
+            height: 30px;
+            &:hover{
+                color: white;
+            }
+        }
 }
 
 .footer-about-us{
