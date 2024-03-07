@@ -111,6 +111,9 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  width: unset;
   height: 100%;
   position: absolute;
   z-index: 50;
@@ -126,27 +129,35 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
+  width: none;
+  height: none;
 }
 .main-contact #contContacto h1 {
   display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 100px;
   font-family: Poppins, Arial;
   font-size: 10vh;
   text-align: center;
-  justify-content: flex-start;
-  height: 100px;
-  width: 500px;
-  align-items: center;
   margin-left: 10%;
   margin-top: 25%;
 }
 .main-contact #contContacto .formulario {
   display: flex;
   flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
   width: auto;
   height: auto;
+  display: flex;
   margin-top: 3%;
   margin-left: 10%;
-  align-items: center;
   text-align: center;
 }
 .main-contact #contContacto .formulario .form-control-custom {

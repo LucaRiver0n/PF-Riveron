@@ -1,8 +1,16 @@
-.main-contact{
+@mixin flexbox($direccion, $wr, $jc, $ai, $wi, $he){
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100%;
+    flex-direction: $direccion;
+    flex-wrap: $wr;
+    justify-content: $jc;
+    align-items: $ai;
+    width: $wi;
+    height: $he;
+}
+
+
+.main-contact{
+    @include flexbox(column, wrap, none, none, unset, 100%);
     position: absolute;
     z-index: 50;
     .imagen {
@@ -12,31 +20,23 @@
         z-index: -10000;
         }
     #contContacto{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include flexbox(row, wrap, center, none, none, none);
         h1{
-            display: flex;
+            @include flexbox(none, none, flex-start, center, 500px, 100px);
             font-family: Poppins, Arial;
             font-size: 10vh;
             text-align: center;
-            justify-content: flex-start;
-            height: 100px;
-            width: 500px;
-            align-items: center;
             margin-left: 10%;
             margin-top: 25%;
+            
         }
         .formulario{
+            @include flexbox(column, none, none, center, auto, auto);
             display: flex;
-            flex-direction: column;
-            width: auto;
-            height: auto;
             margin-top: 3%;
             margin-left: 10%;
-            align-items: center;
             text-align: center;
+            
             .form-control-custom{
                 width: 300px;
             }
