@@ -1,3 +1,15 @@
+@mixin flexbox($direccion, $wr, $jc, $ai, $wi, $he){
+    display: flex;
+    flex-direction: $direccion;
+    flex-wrap: $wr;
+    justify-content: $jc;
+    align-items: $ai;
+    width: $wi;
+    height: $he;
+}
+// PAGINA ----------------
+
+
 .main-about-us{
     display: flex;
     flex-flow: row wrap;
@@ -10,31 +22,42 @@
         object-fit: cover;
         border-radius: 15px;
         margin-left: 10%;
-    }
+        
+    } 
+    
     #infoSobreNosotros{
         display: flex;
         height: 500px;
         width: 500px;
         flex-direction: column;
         padding: 10px;
+        
+        
         }
         h1{
             font-size: 90px;
             font-weight:600;
+           
         }
         h2{
             font-size: 30px;
             font-weight: 500;
+            
         }
         p{
             margin-top: 3%;
+           
         }
-        .btn-custom-contact a {
+         a{
             
             text-decoration: none;
             color: black;
-            width: auto !important;
-            height: 30px;
+            padding: 10px;
+            border: 1px solid black;
+            width: 15vh;
+            text-align: center;
+            margin: 10px 0;
+            border-radius: 15px;
             &:hover{
                 color: white;
             }

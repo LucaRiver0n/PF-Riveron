@@ -7,8 +7,6 @@
     width: $wi;
     height: $he;
 }
-
-
 .main-contact{
     @include flexbox(column, wrap, none, none, unset, 100%);
     position: absolute;
