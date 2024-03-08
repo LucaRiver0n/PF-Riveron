@@ -252,6 +252,9 @@ footer {
 
 /* MEDIA QUERY - MOBILE - ABOUT US */
 @media (max-width: 480px) {
+  body {
+    overflow: visible;
+  }
   .nav-bar-custom {
     width: auto;
   }
