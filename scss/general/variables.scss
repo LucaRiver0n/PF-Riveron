@@ -1,9 +1,4 @@
-@mixin flexbox($direccion, $wr, $jc, $ai, $wi, $he){
-    display: flex;
-    flex-direction: $direccion;
-    flex-wrap: $wr;
-    justify-content: $jc;
-    align-items: $ai;
-    width: $wi;
-    height: $he;
-}
+$primary-color: rgb(238, 240, 235);
+$secondary-color: black;
+
+$page-font: Poppins, Arial;

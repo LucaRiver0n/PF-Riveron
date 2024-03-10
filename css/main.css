@@ -187,7 +187,7 @@ footer {
   display: flex;
   text-align: center;
   flex-direction: column;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: Poppins, Arial;
 }
 .titulo-projects h1 {
   font-weight: 600;

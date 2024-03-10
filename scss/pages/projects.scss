@@ -3,7 +3,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: $page-font;
     h1{
         font-weight: 600;
         font-size: 90px;
@@ -14,7 +14,7 @@
     display: flex;
     height: auto;
     width: 800px;
-     font-family: Poppins, Arial;
+     font-family: $page-font;
      margin-left: 25%;
      margin-top: -8px;
      img{
