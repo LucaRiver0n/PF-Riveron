@@ -106,9 +106,12 @@ footer {
   text-align: center;
   margin: 10px 0;
   border-radius: 15px;
+  transition: 0.3s ease;
 }
 .main-about-us a:hover {
+  background-color: black;
   color: white;
+  transition: 0.3s ease;
 }
 
 .footer-about-us {
